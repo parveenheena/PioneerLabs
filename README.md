@@ -1,8 +1,20 @@
-# React + Vite
+## Cryptocurrency Dashboard
+This project is a cryptocurrency dashboard built with React.js. It fetches data from different APIs to display population trends, cryptocurrency prices, and more.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Features
+- Side Navigation Bar: A responsive sidebar navigation that collapses into a hamburger menu on smaller screens. It includes navigation items, a search input, and options at the bottom.
+- Population Graph: Displays population trends over time using a line chart and a donut chart.
+- Cryptocurrency Prices: Fetches and displays real-time Bitcoin prices in multiple currencies.
 
-Currently, two official plugins are available:
+### Technologies Used
+- React.js
+- Axios for API requests
+- Chart.js for chart visualization
+- CSS for styling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Setup
+```bash
+Clone the repository: git clone https://github.com/yourusername/cryptocurrency-dashboard.git
+Install dependencies: npm install
+Start the development server: npm run dev
+```
