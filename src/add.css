@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(11, 11, 11);
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+    /* font-family: Arial, sans-serif;  */
+    color: white; 
+  }
+
+  .heading {
+    margin-left: 220px;
+  }
+  
+.side-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: rgb(26, 30, 28);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  .hamburger-menu {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .navigation-items {
+    margin-bottom: 20px;
+  }
+  
+  .nav-item {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .nav-item.active {
+    font-weight: bold;
+    color: rgb(34,103,35);
+  }
+  
+  .bottom-items {
+    position: absolute;
+    bottom: 20px;
+  }
+  
+/* card css */
+
+/* add.css */
+
+.cryptocurrency-container {
+    margin-left: 220px; /* Adjust as per your sidebar width */
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: 'space-between'; /* Adjust card alignment */
+    gap: 20px; /* Add gap between cards */
+  }
+  
+  .cryptocurrency-card {
+    width: 300px; /* Adjust card width */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    color: black;
+  }
+  
+  .cryptocurrency-card h3 {
+    margin-top: 0;
+  }
+  
+  .cryptocurrency-card .rate {
+    font-weight: bold;
+  }
+
+  .trade-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: rgb(249, 249, 249); /* Adjusted color */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px 4px 0; 
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .trade-button:hover {
+    background-color: #45a049;
+  }
+  
+
+  .info-icon {
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+    color: #45a049;
+    margin-right: 10px; 
+  }
+
+  
+  @media (max-width: 768px) {
+    .cryptocurrency-container {
+      margin-left: 0;
+    }
+  }
+  
+
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .side-navbar {
+      width: 100%;
+    }
+  }
+  
