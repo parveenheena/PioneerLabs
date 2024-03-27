@@ -1,20 +1,17 @@
 import React, { useState } from 'react';
-import './add.css'; // Import CSS file for styling
+import './add.css'; 
 
 const SideNavBar = () => {
   const [activeItem, setActiveItem] = useState('home');
 
-  const handleItemClick = (itemName) => {
-    setActiveItem(itemName);
-    // You can add logic here to navigate to the corresponding page
-  };
+  
 
   return (
     <div className="side-navbar">
       <div className="logo">
        <img src="carboncell_logo-removebg-preview.png" alt="" />
       </div>
-      <button className="hamburger-menu" onClick={() => console.log('Hamburger menu clicked')}>
+      <button className="hamburger-menu">
         ☰
       </button>
       <input type="text" placeholder="Search..." />

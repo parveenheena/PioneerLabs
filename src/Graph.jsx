@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Line, Doughnut } from 'react-chartjs-2';
 import { Chart, CategoryScale, LinearScale, PointElement, LineElement, ArcElement, Legend, Tooltip, Filler } from 'chart.js';
 
-// Register required Chart.js components
+
 Chart.register(
   CategoryScale,
   LinearScale,
