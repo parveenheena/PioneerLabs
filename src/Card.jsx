@@ -29,6 +29,7 @@ const CryptocurrencyCards = () => {
       ) : (
         <>
           <h2>Assets</h2>
+          <p>sjkdnfdjksf</p>
           <div className="card-container">
             {Object.keys(bitcoinData.bpi).map(currency => (
               <div key={currency} className="cryptocurrency-card">
